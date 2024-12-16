@@ -1,0 +1,84 @@
+/* Navbar links for hover effect */
+nav a {
+    @apply transition duration-300 ease-in-out;
+}
+
+nav a:hover {
+    @apply text-purple-600;
+}
+
+nav a.active {
+    @apply text-purple-600;
+}
+
+nav a.active::after {
+    @apply block w-full mt-2 border-b-2 border-purple-600;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+/* General Service Box Styling */
+.service-box {
+    @apply text-center p-6 rounded-lg shadow-md;
+}
+
+/* Lazy Loaded Images */
+.service-img {
+    @apply w-24 h-24 mx-auto mb-4;
+}
+
+.service-box img{
+    vertical-align: top;
+}
+
+/* Service Title */
+.service-title {
+    @apply font-semibold text-lg text-gray-800;
+}
+
+.section2 {
+    background-color: white;
+    color: #000000;
+}
+
+.section2 h2 {
+    color:#5e17eb
+}
+
+/* Section 3 Specific Styles */
+.section-3 {
+    background-color: #3a3aea; /* Background Color */
+    color: white;
+    min-height: 100vhs;
+  }
+  
+.section-3 button {
+      background-color: #c269ff;
+      color: white;
+      font-weight: bold;
+      height: 50px;
+      width: 150px;
+    
+  }
+.section-3 h1{
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.section-3 h2 {
+    font-size: 24px;
+  }
+
+.section-4 h2 {
+    color: #000;
+}
+
+.section-4 h3 {
+    color: #ff1495;
+}
+
+.section-4 p{
+  color: #71717A;
+}
